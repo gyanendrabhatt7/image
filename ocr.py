@@ -1,3 +1,8 @@
+import subprocess
+
+subprocess.run(['pip3', 'install', 'easyocr'])
+
+
 !pip3 install easyocr
 
 import easyocr as ocr  #OCR
